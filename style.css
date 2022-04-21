@@ -1,0 +1,214 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   div {
+     width: 100%;
+     height: 50px;
+     background-color: #181616;
+     
+   }
+  
+   div ul  {
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+ 
+   }
+   
+
+   div ul li {
+    background-color: #f1c708a4;
+   padding: 8px;
+    margin: 5px;
+    border-radius: 50%;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   }
+   div ul li a{
+     color: #fcf9f9;
+    text-decoration: none;
+    cursor: pointer;
+ 
+   }
+   
+  .text-input {
+  background-color: #f1c708a4;
+  position: relative;
+  width: 100%;
+  height: 70%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #111311;
+
+  }
+  .encriptador {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  /* Light blue/light-blue-100 */
+
+  background: #1d1c1c;
+  }
+
+  .autoLayout1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 20%;
+  height: 60%;
+  left: 20%;
+  top: 10%;
+  }
+
+  .autoLayout2 {
+    display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  left: 10%;
+  top: 70%;
+  }
+
+  .autoLayout3 {
+    display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  left: 30%;
+  top: 70%;
+  }
+
+
+  .autoLayout4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 60%;
+    top: 10%;
+    }
+
+  .button {
+    /* Button */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  /* Dark blue/dark-blue-300 */
+  background: #858282;
+  border-radius: 24px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px 1px #f1c708a4;
+
+  }
+  .button:active {
+    box-shadow: 0 0 0 0 #f1c708a4, inset 3px 3px 3px  #f1c708a4;
+    transform: translate(3px, 3px);
+  }
+
+  .button:hover {
+    background: rgb(228, 158, 9);
+    transition: 0.1s;
+    
+  }
+  .textoButton {
+    cursor: pointer;
+  }
+
+  .autoLayout5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  left: 60%;
+  top: 70%;
+  }
+
+  .autoLayout6 {
+  background:#f1c708a4;
+  opacity: 80%;
+  padding: 10px;
+  border-radius: 45px;
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
+  }
+
+  .autoLayout6 p {
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .textoButton{
+  position: relative;
+
+
+  font-family: Verdana;
+  font-style: black;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  /* White */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 2px 8px;}
+
+
+
+
+  .texto{
+    position: center;
+    background-color: rgb(245, 145, 13);
+    
+    font-family: Verdana;
+    font-style: black;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    top: 90%
+  }
